@@ -2,7 +2,7 @@ package $name$
 
 import java.io.File
 
-case class Config(files: List[File] = Nil, ignoreCase: Boolean = false)
+final case class Config(files: List[File] = Nil, ignoreCase: Boolean = false)
 
 object $name$ extends App {
   val parser = new scopt.OptionParser[Config]("$name$") {
