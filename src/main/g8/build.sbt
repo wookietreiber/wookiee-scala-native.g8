@@ -91,9 +91,3 @@ install := {
 
   Files.copy(source, target, COPY_ATTRIBUTES, REPLACE_EXISTING)
 }
-
-// ----------------------------------------------------------------------------
-// weird sbt log thingy
-// ----------------------------------------------------------------------------
-
-disablePlugins(BackgroundRunPlugin)

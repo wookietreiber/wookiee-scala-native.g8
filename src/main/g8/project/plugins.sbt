@@ -1,5 +1,5 @@
 // native
-addSbtPlugin("org.scala-native" % "sbt-scala-native" % "0.3.3")
+addSbtPlugin("org.scala-native" % "sbt-scala-native" % "0.3.6")
 // versioning
 addSbtPlugin("com.typesafe.sbt" % "sbt-git" % "0.9.3")
 addSbtPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.7.0")
